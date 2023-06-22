@@ -1,0 +1,20 @@
+{
+  "name": "new-folder",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon script.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "deepdash-es": "^5.3.9",
+    "fast-xml-parser": "^4.2.0",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.22"
+  }
+}
