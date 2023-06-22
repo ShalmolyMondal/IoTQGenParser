@@ -19,3 +19,15 @@ cd your-repo
 
 - Place your XML file in the project directory. 
 - Start the server:
+
+``` shell
+npm start
+```
+- The server will run on port 1337. You can access the JSON data by making a GET request to http://localhost:1337
+
+## Configuration
+
+- You can modify the server's behavior by adjusting the following variables in the index.js file:
+
+- xmlFile: Specifies the path to the XML file to be parsed. By default, it looks for IoTSySML_QM.xml in the project directory.
+- jsonFields: An array of fields to be extracted from the parsed JSON. By default, it extracts the @_Name field.
